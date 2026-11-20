@@ -1,0 +1,18 @@
+@model SesjaTreningowa
+@{
+    ViewData["Title"] = "Usuwanie sesji treningowej";
+}
+<h1>Usuwanie sesji treningowej</h1>
+<div class="alert alert-warning">
+    Czy na pewno chcesz usunąć tę sesję? Zostaną usunięte także wszystkie ćwiczenia zapisane w tej sesji.
+</div>
+<dl class="row">
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Poczatek)</dt>
+    <dd class="col-sm-9">@Html.DisplayFor(m => m.Poczatek)</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Koniec)</dt>
+    <dd class="col-sm-9">@Html.DisplayFor(m => m.Koniec)</dd>
+</dl>
+<form asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger">Usuń</button>
+    <a class="btn btn-secondary" asp-action="Index">Anuluj</a>
+</form>

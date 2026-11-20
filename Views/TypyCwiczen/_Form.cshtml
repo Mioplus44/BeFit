@@ -1,0 +1,14 @@
+@model TypCwiczenia
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="mb-3">
+    <label asp-for="Nazwa" class="form-label"></label>
+    <input asp-for="Nazwa" class="form-control" />
+    <div class="form-text">Krótka, jednoznaczna nazwa, np. „Przysiad ze sztangą”.</div>
+    <span asp-validation-for="Nazwa" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="Opis" class="form-label"></label>
+    <textarea asp-for="Opis" class="form-control" rows="3"></textarea>
+    <div class="form-text">Opcjonalnie: jakie partie mięśni angażuje ćwiczenie.</div>
+    <span asp-validation-for="Opis" class="text-danger"></span>
+</div>

@@ -1,0 +1,16 @@
+@model TypCwiczenia
+@{
+    ViewData["Title"] = "Usuwanie typu ćwiczenia";
+}
+<h1>Usuwanie typu ćwiczenia</h1>
+<div class="alert alert-warning">Czy na pewno chcesz usunąć ten typ ćwiczenia?</div>
+<dl class="row">
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Nazwa)</dt>
+    <dd class="col-sm-9">@Model.Nazwa</dd>
+    <dt class="col-sm-3">@Html.DisplayNameFor(m => m.Opis)</dt>
+    <dd class="col-sm-9">@Model.Opis</dd>
+</dl>
+<form asp-action="Delete" asp-route-id="@Model.Id">
+    <button type="submit" class="btn btn-danger">Usuń</button>
+    <a class="btn btn-secondary" asp-action="Index">Anuluj</a>
+</form>

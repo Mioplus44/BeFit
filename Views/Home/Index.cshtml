@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Strona główna";
+}
+<div class="py-4">
+    <h1>BeFit</h1>
+    <p class="lead">Prosty dziennik treningowy: planuj sesje, zapisuj wykonane ćwiczenia i śledź swoje postępy.</p>
+    <a class="btn btn-outline-dark" asp-controller="TypyCwiczen" asp-action="Index">Przeglądaj typy ćwiczeń</a>
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <a class="btn btn-primary" asp-controller="SesjeTreningowe" asp-action="Create">Dodaj sesję treningową</a>
+        <a class="btn btn-outline-primary" asp-controller="Statystyki" asp-action="Index">Moje statystyki</a>
+    }
+    else
+    {
+        <a class="btn btn-primary" asp-area="Identity" asp-page="/Account/Login">Zaloguj się</a>
+    }
+</div>

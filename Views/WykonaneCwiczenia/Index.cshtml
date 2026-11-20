@@ -1,0 +1,40 @@
+@model IEnumerable<WykonaneCwiczenie>
+@{
+    ViewData["Title"] = "Moje ćwiczenia";
+}
+<h1>Moje wykonane ćwiczenia</h1>
+<p><a class="btn btn-primary" asp-action="Create">Dodaj ćwiczenie</a></p>
+
+<table class="table table-striped align-middle">
+    <thead>
+        <tr>
+            <th>Typ ćwiczenia</th>
+            <th>Sesja (początek)</th>
+            <th>@Html.DisplayNameFor(m => m.Obciazenie)</th>
+            <th>@Html.DisplayNameFor(m => m.LiczbaSerii)</th>
+            <th>@Html.DisplayNameFor(m => m.LiczbaPowtorzen)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TypCwiczenia?.Nazwa</td>
+                <td>@item.SesjaTreningowa?.Poczatek.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@Html.DisplayFor(m => item.Obciazenie)</td>
+                <td>@item.LiczbaSerii</td>
+                <td>@item.LiczbaPowtorzen</td>
+                <td class="text-end">
+                    <a class="btn btn-sm btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Szczegóły</a>
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (!Model.Any())
+{
+    <p class="text-muted">Nie masz jeszcze zapisanych ćwiczeń. Najpierw dodaj <a asp-controller="SesjeTreningowe" asp-action="Create">sesję treningową</a>.</p>
+}

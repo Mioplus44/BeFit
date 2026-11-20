@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BeFit
+build_property.RootNamespace = BeFit
+build_property.ProjectDir = C:\Users\miopl\OneDrive\Pulpit\zadanie_pacjenci\BeFit\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\miopl\OneDrive\Pulpit\zadanie_pacjenci\BeFit
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/SesjeTreningowe/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VzamVUcmVuaW5nb3dlXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/Statystyki/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RhdHlzdHlraVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/TypyCwiczen/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlweUN3aWN6ZW5cX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcX0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/WykonaneCwiczenia/_Szczegoly.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3lrb25hbmVDd2ljemVuaWFcX1N6Y3plZ29seS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/miopl/OneDrive/Pulpit/zadanie_pacjenci/BeFit/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

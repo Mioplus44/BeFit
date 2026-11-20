@@ -1,0 +1,34 @@
+@model IEnumerable<SesjaTreningowa>
+@{
+    ViewData["Title"] = "Moje sesje treningowe";
+}
+<h1>Moje sesje treningowe</h1>
+<p><a class="btn btn-primary" asp-action="Create">Dodaj sesję</a></p>
+
+<table class="table table-striped align-middle">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(m => m.Poczatek)</th>
+            <th>@Html.DisplayNameFor(m => m.Koniec)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(m => item.Poczatek)</td>
+                <td>@Html.DisplayFor(m => item.Koniec)</td>
+                <td class="text-end">
+                    <a class="btn btn-sm btn-outline-secondary" asp-action="Details" asp-route-id="@item.Id">Szczegóły</a>
+                    <a class="btn btn-sm btn-outline-primary" asp-action="Edit" asp-route-id="@item.Id">Edytuj</a>
+                    <a class="btn btn-sm btn-outline-danger" asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@if (!Model.Any())
+{
+    <p class="text-muted">Nie masz jeszcze żadnych sesji treningowych.</p>
+}

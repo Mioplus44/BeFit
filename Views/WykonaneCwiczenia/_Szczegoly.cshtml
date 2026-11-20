@@ -1,0 +1,13 @@
+@model WykonaneCwiczenie
+<dl class="row">
+    <dt class="col-sm-4">Typ ćwiczenia</dt>
+    <dd class="col-sm-8">@Model.TypCwiczenia?.Nazwa</dd>
+    <dt class="col-sm-4">Sesja treningowa</dt>
+    <dd class="col-sm-8">@Model.SesjaTreningowa?.Poczatek.ToString("dd.MM.yyyy HH:mm") – @Model.SesjaTreningowa?.Koniec.ToString("HH:mm")</dd>
+    <dt class="col-sm-4">@Html.DisplayNameFor(m => m.Obciazenie)</dt>
+    <dd class="col-sm-8">@Html.DisplayFor(m => m.Obciazenie)</dd>
+    <dt class="col-sm-4">@Html.DisplayNameFor(m => m.LiczbaSerii)</dt>
+    <dd class="col-sm-8">@Model.LiczbaSerii</dd>
+    <dt class="col-sm-4">@Html.DisplayNameFor(m => m.LiczbaPowtorzen)</dt>
+    <dd class="col-sm-8">@Model.LiczbaPowtorzen</dd>
+</dl>

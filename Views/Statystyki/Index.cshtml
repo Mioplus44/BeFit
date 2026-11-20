@@ -1,0 +1,37 @@
+@model IEnumerable<StatystykaCwiczenia>
+@{
+    ViewData["Title"] = "Statystyki";
+}
+<h1>Moje statystyki</h1>
+<p class="text-muted">Uwzględnione są sesje treningowe z ostatnich czterech tygodni (28 dni).</p>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">Brak ćwiczeń z ostatnich czterech tygodni.</div>
+}
+else
+{
+    <table class="table table-striped align-middle">
+        <thead>
+            <tr>
+                <th>Typ ćwiczenia</th>
+                <th class="text-end">Liczba wykonań</th>
+                <th class="text-end">Łączna liczba powtórzeń</th>
+                <th class="text-end">Średnie obciążenie (kg)</th>
+                <th class="text-end">Maksymalne obciążenie (kg)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in Model)
+            {
+                <tr>
+                    <td>@s.Nazwa</td>
+                    <td class="text-end">@s.LiczbaWykonan</td>
+                    <td class="text-end">@s.LacznaLiczbaPowtorzen</td>
+                    <td class="text-end">@s.SrednieObciazenie.ToString("0.##")</td>
+                    <td class="text-end">@s.MaksymalneObciazenie.ToString("0.##")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

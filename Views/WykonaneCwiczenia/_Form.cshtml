@@ -1,0 +1,37 @@
+@model WykonaneCwiczenie
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<div class="mb-3">
+    <label asp-for="TypCwiczeniaId" class="form-label"></label>
+    <select asp-for="TypCwiczeniaId" asp-items="(SelectList)ViewBag.Typy" class="form-select">
+        <option value="0">– wybierz –</option>
+    </select>
+    <div class="form-text">Które ćwiczenie wykonałeś.</div>
+    <span asp-validation-for="TypCwiczeniaId" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="SesjaTreningowaId" class="form-label"></label>
+    <select asp-for="SesjaTreningowaId" asp-items="(SelectList)ViewBag.Sesje" class="form-select">
+        <option value="0">– wybierz –</option>
+    </select>
+    <div class="form-text">
+        W ramach której sesji. Brakuje sesji? <a asp-controller="SesjeTreningowe" asp-action="Create">Dodaj nową</a>.
+    </div>
+    <span asp-validation-for="SesjaTreningowaId" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="Obciazenie" class="form-label"></label>
+    <input asp-for="Obciazenie" type="number" step="0.25" min="0" max="1000" class="form-control" />
+    <div class="form-text">Ciężar użyty w ćwiczeniu, w kilogramach (0 – ćwiczenie z masą ciała).</div>
+    <span asp-validation-for="Obciazenie" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="LiczbaSerii" class="form-label"></label>
+    <input asp-for="LiczbaSerii" type="number" min="1" max="100" class="form-control" />
+    <span asp-validation-for="LiczbaSerii" class="text-danger"></span>
+</div>
+<div class="mb-3">
+    <label asp-for="LiczbaPowtorzen" class="form-label"></label>
+    <input asp-for="LiczbaPowtorzen" type="number" min="1" max="1000" class="form-control" />
+    <div class="form-text">Ile powtórzeń w jednej serii.</div>
+    <span asp-validation-for="LiczbaPowtorzen" class="text-danger"></span>
+</div>
